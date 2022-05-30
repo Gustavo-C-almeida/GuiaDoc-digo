@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Guia do código - Variáveis</title>
+    <header>
+        <div id="logo">
+            <a href=""><img src="logo.png" alt=""></a>
+        </div>
+            <ul id="menubt">
+                <li><a href="#menuf">Sobre</a></li>
+                <li><a href="#menuf">Contato</a></li>
+                <li><a href="paginainicial.html">Menu</a></li>
+            </ul>
+            </header>
+</head>
+<br>
+<body>
+    <main id="pg1">
+        <h1>Variáveis na programação</h1>
+        <div id="dc1">
+            <p>
+Uma variável pode ser pensada como uma caixa que o computador usa para armazenar um valor. O valor contido nessa caixa pode mudar ou 'variar'. <br> No seu programa você pode usar quantas variáveis forem necessárias.
+Todas as variáveis são compostas de três partes: <br>
+Um nome: <b>Nota</b> <br>
+Um tipo: <b>Inteiro</b> <br>
+E um valor: <b>10</b>  <br>
+</p> 
+<img src="nota.png" alt="">
+<p>Lembrando que, os nomes de variáveis tem protocólos a serem seguidos, como: <br> <div id="list">
+    <li>Devem começar com uma letra.</li>
+    <li>Os próximos caracteres podem ser letras ou números.</li>
+    <li><b>Não</b> pode utilizar nenhum símbolo, exceto "_" .</li>
+    <li><b>Não</b> pode conter espaços em branco.</li>
+    <li><b>Não</b> pode conter letras com acentos.</li>
+    <li><b>Não</b> pode ser uma palavra reservada.</li>
+</div>
+<p>Variáveis <b style="color:rgb(1, 165, 1);">corretas</b> e <b style="color:red;">incorretas</b>: <br>
+    <div id="list">
+        <li style="color:rgb(1, 165, 1);">Nota1</li>
+        <li style="color:red;">Média</li>
+        <li style="color:red;">Salário Bruto</li>
+        <li style="color:red;">9dade</li>
+        <li style="color:rgb(1, 165, 1);">Jogador2</li>
+        <li style="color:rgb(1, 165, 1);">Pedro</li>
+
+    </div>
+</p>
+
+</p>
+ <p>
+     Você também pode fazer com que o usuário atribua a variável para você, isso gera interatividade e praticidade. <br>
+     <b>Nome</b> = resposta da pergunta <br> Qual é seu nome? <input type="text" name="" id="nomevar"> <br>
+     Computador, leia a resposta e atribua como o nome! <br>
+     <input type="button" value="Executar comando" onclick="lernome()">
+     <i id="resnome"></i> <input type="button" value="Limpar" onclick="limpar()">
+            </p>
+            <br>
+            <div id="descrição">
+                <div><a href="algoritmos.html">Anterior</a></div>
+                <div><a href="tiposvar.html">Próximo</a></div>
+            </div>
+        </div>
+    </main>
+</body>
+<footer>
+    <div class="waves">
+<div class="wave" id="wavel"></div>
+<div class="wave" id="wave2"></div>
+<div class="wave" id="wave3"></div>
+<div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social_icon">
+    <li><a href="mailto:guiadocodigo@gmail.com" target="_blank"><ion-icon name="mail-outline"></ion-icon></a></li>
+    <li><a href="https://www.youtube.com/channel/UCLykMLR_Bjd9kzBZ8HJEWeA" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
+</ul>
+<ul id="menuf">
+    <li style="font-size: 19px;">esse site é um projeto de um trabalho da faculdade que visa criar algo que ajude um grupo específico e nós do grupo decidimos ajudar você! que tem o objetivo de começar a aprender programação e não sabe por onde começar, a plataforma que estamos criando é totalmente gratuita e tem apenas o intuito de ajudar pessoas que ainda estão tendo o primeiro contato com programação a aprender da melhor maneira sem estar pagando absolutamente nada, essa plataforma contém materiais de leitura e vídeos que se você ter foco e se dedicar, você sairá daqui pronto para aprender todas as linguagens disponíveis.</li>
+</ul>
+</footer>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+function lernome(){
+    var nome = (document.getElementById('nomevar')).value;
+    (document.getElementById('resnome')).innerHTML = 'Olá '+nome+', já li seu nome!';
+}
+function limpar(){
+    (document.getElementById('resnome')).innerHTML = '';
+}
+</script>
+</html>
