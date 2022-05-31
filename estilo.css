@@ -281,10 +281,6 @@ footer .wave{
         font-size: 20px;
         padding-top: 10px;
     }
-    #caixa{
-        width: 90%;
-        height: 40%;
-    }
     footer{
         display: flex;
         position: relative;
