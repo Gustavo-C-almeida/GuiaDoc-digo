@@ -104,7 +104,6 @@ border-radius: 100px;
     padding-top: 10px;
 }
 #dc1 img{
-    height: 250px;
     border-radius: 20px;
     margin: 0 auto;
 }
@@ -169,10 +168,10 @@ footer .wave{
         box-shadow: 2px 4px 12px 2px rgb(107, 107, 107);
     }
     #algoritmo{
+        height: 90px;
     width: 190px;
     }
     #caixa{
-    height: 80px;
     width: 190px;
     }
     #tiposdados{
@@ -362,7 +361,7 @@ footer .wave{
     }
     #caixa{
         width: 150px;
-        height: 60px;
+        height: 90px;
     }
     #menubt li a{
     font-size: 16px;
