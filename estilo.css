@@ -172,6 +172,7 @@ footer .wave{
     width: 190px;
     }
     #caixa{
+    height: 80px;
     width: 190px;
     }
     #tiposdados{
@@ -361,7 +362,7 @@ footer .wave{
     }
     #caixa{
         width: 150px;
-        height: 90px;
+        height: 60px;
     }
     #menubt li a{
     font-size: 16px;
