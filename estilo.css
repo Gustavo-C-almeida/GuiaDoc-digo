@@ -171,6 +171,24 @@ footer .wave{
     #algoritmo{
     width: 190px;
     }
+    #caixa{
+    width: 190px;
+    }
+    #tiposdados{
+    width: 230px;
+    }
+    #operadores{
+    width: 240px;
+    }
+    #visualg{
+    width: 230px;
+    }
+    #vid{
+    width: 240px;
+    }
+    #if{
+    width: 240px;
+    }
     #logo img{
         width: 250px;
         padding-bottom: 20px;
@@ -331,6 +349,9 @@ footer .wave{
     }
     #visualg{
     width: 150px;
+    }
+    #if{
+        width: 150px;
     }
     #logo img{
         width: 90%;
